@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.layanmovie" version="0.0.3.20140321" name="layanmovie" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.gdrive" version="0.2.7"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Site player for layanmovie.com</summary>
+        <description>Site player for layanmovie.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+

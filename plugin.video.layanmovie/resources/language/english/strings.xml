@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<strings>
+    <string id="30000">layanmovie</string>
+    <string id="30001">Video was removed or doesn't exist</string>
+    <string id="30002">[alphabetical order]</string>
+    <string id="30006">next page of videos</string>
+    <string id="30007">previous page of videos</string>
+    <string id="30004">User Agent</string>
+    <string id="30005">Filter-Out Non-English</string>
+
+</strings>
