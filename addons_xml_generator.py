@@ -13,7 +13,7 @@ class Generator:
     """
     def __init__( self ):
         # generate files
-        self._generate_addons_file()
+#        self._generate_addons_file()
         self._generate_md5_file()
         # notify user
         print "Finished updating addons xml and md5 files"
