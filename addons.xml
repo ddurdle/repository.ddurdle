@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.video.cloudstream" version="0.0.4" name="CloudStream" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>A cloud player for various cloud-streaming services</summary>
+        <description>Stream music and video content from various cloud-streaming services
+                                supports: daclips.in, gorillavid.in, movpod.in, thefile.me, bestreams.net, uptobox.com,
+                                sharerep.com, thevideo.me, filenuke.com, sharesix.com, mightyupload.com, vidhog.com,
+                                vidspot.net, www.uploadc.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
 <addon id="plugin.video.layanmovie" version="0.0.3" name="layanmovie" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
