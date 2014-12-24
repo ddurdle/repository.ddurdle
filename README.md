@@ -1,6 +1,6 @@
 repository.ddurdle
-==================
+==========================
 
-XBMC repository for ddurdle addons
+XBMC repository for ddurdle Cloud Services addons
 
 
