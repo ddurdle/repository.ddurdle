@@ -13,7 +13,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.hive" version="0.2.9" name="Hive" provider-name="ddurdle">
+<addon id="plugin.video.hive" version="0.3.0" name="Hive" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
