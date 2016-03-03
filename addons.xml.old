@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.mediafire" version="0.2.0" name="MediaFire" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays video and music from your MediaFire service</summary>
+        <description>Plays video and music from your MediaFire cloud service. This addon is not affiliated with MediaFire</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.hive" version="0.4.1" name="Hive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays video and music from your Hive (QVIVO service) service</summary>
+        <description>Plays video and music from your Hive cloud service. This addon is not affiliated with QVIVO</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.box" version="0.1.2" name="Box" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays video and music from your Box.com/Box.net service</summary>
+        <description>Plays video and music from your Box cloud service. This addon is not affiliated with HP or Box.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.onedrive" version="0.4.0" name="OneDrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays video and music from your OneDrive service</summary>
+        <description>Plays video and music from your OneDrive service. This addon is not affiliated with Microsoft</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.cloudstream" version="0.3.1" name="CloudStream" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>A cloud player for various cloud-streaming services</summary>
+        <description>Stream music and video content from various cloud-streaming services supports: daclips.in, gorillavid.in, movpod.in, thefile.me, bestreams.net(broken), uptobox.com, sharerep.com, thevideo.me, filenuke.com, sharesix.com(broken), mightyupload.com, vidhog.com, vidspot.net, www.uploadc.com, hcbit.com, vidzi.tv, vodlocker.com, streamcloud.eu, letwatch.us, vidzi.tv</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+<addon id="plugin.video.owncloud" version="0.4.11" name="ownCloud" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays video and music from your ownCloud service</summary>
+        <description>Plays video and music from your ownCloud service.  Supports/Tested on ownCloud 6, 7, 8. 8.2/8.2.2 and including Enterprise Edition.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.firedrive" version="0.3.5" name="firedrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>A cloud player for firedrive</summary>
+        <description>Stream music and video content from your firedrive.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.gdrive" version="0.7.17" name="gdrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays music and video from your Google Drive account</summary>
+        <description>Plays music and video from your Google Drive account</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="plugin.video.sockshare" version="0.0.3" name="SockShare" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>A cloud player for sockshare</summary>
+        <description>Stream music and video content from your sockshare.com</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
