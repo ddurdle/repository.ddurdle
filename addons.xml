@@ -13,19 +13,6 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.hive" version="0.4.1" name="Hive" provider-name="ddurdle">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Plays video and music from your Hive (QVIVO service) service</summary>
-        <description>Plays video and music from your Hive cloud service. This addon is not affiliated with QVIVO</description>
-        <platform>all</platform>
-    </extension>
-</addon>
 <addon id="plugin.video.box" version="0.1.4" name="Box" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -79,19 +66,6 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.firedrive" version="0.3.5" name="firedrive" provider-name="ddurdle">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>A cloud player for firedrive</summary>
-        <description>Stream music and video content from your firedrive.com</description>
-        <platform>all</platform>
-    </extension>
-</addon>
 
 <addon id="plugin.video.gdrive" version="0.7.17" name="gdrive" provider-name="ddurdle">
     <requires>
@@ -107,17 +81,5 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.sockshare" version="0.0.3" name="SockShare" provider-name="ddurdle">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>A cloud player for sockshare</summary>
-        <description>Stream music and video content from your sockshare.com</description>
-        <platform>all</platform>
-    </extension>
-</addon>
+
 </addons>
