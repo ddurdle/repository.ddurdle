@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.acd" version="0.1.10" name="Amazon Cloud Drive" provider-name="ddurdle">
+<addon id="plugin.video.acd" version="0.1.10" name="AmazonCloudDrive" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
