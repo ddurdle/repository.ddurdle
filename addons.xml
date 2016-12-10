@@ -93,7 +93,7 @@
         <platform>all</platform>
     </extension>
 </addon>
-<addon id="plugin.video.gdrive" version="0.8.29" name="gdrive" provider-name="ddurdle">
+<addon id="plugin.video.gdrive" version="0.8.35" name="gdrive" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
