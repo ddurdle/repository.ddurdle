@@ -13,6 +13,19 @@
         <platform>all</platform>
     </extension>
 </addon>
+<addon id="plugin.video.acd" version="0.2.12" name="AmazonCloudDrive" provider-name="ddurdle">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Plays music and video from your Amazon Cloud Drive account</summary>
+        <description>Plays music and video from your Amazon Cloud Drive account</description>
+        <platform>all</platform>
+    </extension>
+</addon>
 <addon id="plugin.video.mediafire" version="0.2.0" name="MediaFire" provider-name="ddurdle">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
